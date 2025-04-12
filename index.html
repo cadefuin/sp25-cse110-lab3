@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Meeting Minutes</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="assets/favicon.ico">
+  </head>
+
+
+  
+  <body>
+
+    <header>
+      <h1>Meeting Minutes</h1>
+      <img src="assets/rubber-duck-by-talha-dogar.png"
+      alt="A simple rubber duck icon"
+      width="100">
+      <div>
+        <h2>Title: Ducky Dashboard</h2>
+        <p><b>Topic: Check-In <br> Date: 4/10/2025</b></p>
+      </div>
+
+        <nav>
+            <h3>Overview</h3>
+            <ol>
+                <li><a href="#attendance">Attendance</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#old-business">Old Business</a></li>
+                <li><a href="#new-business">New Business</a></li>
+                <li><a href="#notes">Notes</a></li>
+            </ol>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <main>
+      
+      <section id="attendance">
+        <h3>Attendance</h3>
+        <ul>
+          <li>Tim Flippers-Feet</li>
+          <li>Brenduck Ente</li>
+          <li>Jamie Gooseling</li>
+        </ul>
+      </section>
+      
+      <hr>
+
+      <section id="agenda">
+        <h3>Agenda</h3>
+        <ol>
+          <li>review unfinished business</li>
+          <li>discuss new business</li>
+        </ol>
+      </section>
+      
+      <hr>
+      
+      <section id="old-business">
+        <h3>Old Business</h3>
+        <ul>
+          <li>finish ducky dashboard</li>
+        </ul>
+      </section>
+
+      <section id="new-business">
+        <h3>New Business</h3>
+        <ul>
+          <li>ship ducky dashboard</li>
+        </ul>
+      </section>
+      
+      <hr>
+
+      <section id="notes">
+        <h3>Notes</h3>
+        <p>quack quack <em>quack</em> quack quack <br> <strong>quack</strong> quack quack</p>
+      </section>
+      
+      <section id="files">
+        <details>
+          <summary>Files</summary>
+          <audio controls><source src="assets/ducky-dashboard-audio.mp3"></audio>
+          <br>
+          <video width="400" controls><source src="assets/ducky-dashboard-video.mp4"></video>  
+        </details>
+      </section>
+    <br>
+    </main>
+
+    <hr>
+
+    <footer>
+
+      <form>
+        <fieldset>
+          <h3>Subscribe</h3>
+          <p><b>Email:</b></p>
+          <input type="text" name="email" id="email">
+
+          <p><b>How often would you like to receive emails?</b></p>
+          <input type="radio" name="frequency" id="daily" value="daily">
+          <label for="daily">Daily</label>
+          <br>
+          <input type="radio" name="frequency" id="weekly" value="weekly">
+          <label for="weekly">Weekly</label>
+          <br>
+          <input type="radio" name="frequency" id="monthly" value="monthly">
+          <label for="monthly">Monthly</label>
+
+          <p><b>Starting from:</b></p>
+          <input type="date" name="start-date" id="start-date">
+
+          <select name="time" id="time">
+            <option value=""></option>
+            <option value="0800">8:00 AM</option>
+            <option value="1200">12:00 PM</option>
+            <option value="2000">8:00 PM</option>
+          </select>
+
+          <p><input type="checkbox"> Receive <i>meeting reminders</i> <br>
+          <input type="checkbox"> Receive <i>marketing messages</i></p>
+
+          <button>Subscribe</button>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+          <h3>Questions? Comments? Feedback?</h3>
+
+          <label for="response">Type of Response:</label>
+          <input list="responses" name="response" id="response">
+
+          <datalist id="responses">
+            <option value="Question"></option>
+            <option value="Comment"></option>
+            <option value="Feedback"></option>
+          </datalist>
+
+          <br><br>
+
+          <textarea name="" id=""></textarea> <br>
+          <button>Submit</button>  
+        </fieldset>
+      </form>
+
+    </footer>
+
+  </body>
+</html>
