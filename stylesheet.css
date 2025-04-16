@@ -17,11 +17,11 @@ p, li {
 }
 
 * {
-    color: white;
+    color: color(srgb 1 1 1);
 }
 
 .detail {
-    color: #F58A07;
+    color: rgb(245, 138, 7);
 }
 
 /* BOX & CONTAINER STYLES */
@@ -57,13 +57,13 @@ p, li {
     margin-bottom: 10px;
 
     background-color: #084887;
-    border-color: #084887;
+    border-color: hsl(210, 89%, 28%);
 }
 
 .body {
     margin-top: 10px;
     margin-bottom: 20px;
 
-    background-color: #909CC2;
-    border-color: #909CC2;
+    background-color: color-mix(in hsl, darkblue 25%, white 75%);
+    border-color: color-mix(in hsl, darkblue 25%, white 75%);
 }
