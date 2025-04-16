@@ -1,6 +1,6 @@
 /* TEXT STYLES */
 
-h1, h2, h3 {
+h1, h3 {
     font-family: "Arvo";
 }
 
@@ -12,7 +12,7 @@ h1 {
     text-decoration: dotted;
 }
 
-p, li {
+h2, p, li {
     font-family: "Roboto";
 }
 
@@ -24,11 +24,44 @@ p, li {
     color: rgb(245, 138, 7);
 }
 
-/* BOX & CONTAINER STYLES */
+/* IMAGE STYLES */
 
-.container {
-    background-color: #F58A07;
+img {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
 }
+
+/* HEADER STYLE */
+
+.logo {
+    grid-area: logo;
+}
+
+.title {
+    grid-area: title;
+}
+
+.subtitle {
+    grid-area: subtitle;
+}
+
+header {
+    background-color: #F58A07;
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "logo title"
+        "logo subtitle";
+    justify-items: center;
+    align-items: center;
+}
+
+/* DETAILS STYLE */
 
 .detail {
     display: inline-block;
@@ -36,6 +69,15 @@ p, li {
     margin: auto;
     padding: 10px;
 }
+
+.details {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+/* BODY STYLE */
 
 .box {
     display: block;
