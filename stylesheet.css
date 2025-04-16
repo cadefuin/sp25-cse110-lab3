@@ -1,19 +1,69 @@
+/* TEXT STYLES */
+
 h1, h2, h3 {
     font-family: "Arvo";
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    text-decoration: dotted;
 }
 
 p, li {
     font-family: "Roboto";
 }
 
+* {
+    color: white;
+}
+
+.detail {
+    color: #F58A07;
+}
+
+/* BOX & CONTAINER STYLES */
+
 .container {
     background-color: #F58A07;
 }
 
+.detail {
+    display: inline-block;
+
+    margin: auto;
+    padding: 10px;
+}
+
+.box {
+    display: block;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
 .head {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
     background-color: #084887;
+    border-color: #084887;
 }
 
 .body {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
     background-color: #909CC2;
+    border-color: #909CC2;
 }
