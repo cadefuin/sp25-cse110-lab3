@@ -5,3 +5,15 @@ h1, h2, h3 {
 p, li {
     font-family: "Roboto";
 }
+
+.container {
+    background-color: #F58A07;
+}
+
+.head {
+    background-color: #084887;
+}
+
+.body {
+    background-color: #909CC2;
+}
