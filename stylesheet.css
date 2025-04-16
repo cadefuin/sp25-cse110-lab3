@@ -1,6 +1,6 @@
 /* TEXT STYLES */
 
-h1, h2, h3 {
+h1, h3 {
     font-family: "Arvo";
 }
 
@@ -12,7 +12,7 @@ h1 {
     text-decoration: dotted;
 }
 
-p, li {
+h2, p, li {
     font-family: "Roboto";
 }
 
@@ -24,11 +24,34 @@ p, li {
     color: rgb(245, 138, 7);
 }
 
-/* BOX & CONTAINER STYLES */
+/* HEADER STYLE */
 
-.container {
-    background-color: #F58A07;
+.logo {
+    grid-area: logo;
 }
+
+.title {
+    grid-area: title;
+}
+
+.subtitle {
+    grid-area: subtitle;
+}
+
+header {
+    background-color: #F58A07;
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "logo title"
+        "logo subtitle";
+    justify-items: center;
+    align-items: center;
+}
+
+/* CONTAINER STYLES */
 
 .detail {
     display: inline-block;
