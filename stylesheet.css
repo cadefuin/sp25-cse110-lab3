@@ -24,6 +24,16 @@ h2, p, li {
     color: rgb(245, 138, 7);
 }
 
+/* IMAGE STYLES */
+
+img {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
 /* HEADER STYLE */
 
 .logo {
@@ -51,7 +61,7 @@ header {
     align-items: center;
 }
 
-/* CONTAINER STYLES */
+/* DETAILS STYLE */
 
 .detail {
     display: inline-block;
@@ -59,6 +69,15 @@ header {
     margin: auto;
     padding: 10px;
 }
+
+.details {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+/* BODY STYLE */
 
 .box {
     display: block;
