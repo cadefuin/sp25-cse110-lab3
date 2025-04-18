@@ -5,7 +5,6 @@
     <title>Meeting Minutes</title>
     <meta charset="UTF-8">
     <link rel="icon" href="assets/favicon.ico">
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Roboto">
     <link rel="stylesheet" href="stylesheet.css">
   </head>
@@ -15,18 +14,12 @@
   <body>
 
     <header>
-      <div class="logo">
-        <img src="assets/rubber-duck-by-talha-dogar.png"
+      <img id="logo"
+        src="assets/rubber-duck-by-talha-dogar.png"
         alt="rubber duck icon"
         style="height: 100px; width: 100px;">
-        </div>
-      <div class="title">
-        <h1>Meeting Minutes</h1>
-        </div>
-      <div class="subtitle">
-        <h2>Ducky Dashboard</h2>
-        </div>
-      </div>
+      <h1>Meeting Minutes</h1>
+      <h2>Ducky Dashboard</h2>
     </header>
 
     <hr>
@@ -34,30 +27,30 @@
     <main>
 
       <section id="details">
-          <div class="details"><p>
-            <span class="detail">
-              <img src="assets/pencil-icon-by-pixel-perfect.png"
+          <span class="detail">
+            <img src="assets/pencil-icon-by-pixel-perfect.png"
               alt="pencil icon">
-              Check-In </span>
-            <span class="detail">
-              <img src="assets/calendar-icon-by-prosymbols-premium.png"
+            <p>Check-In</p>
+          </span>
+          <span class="detail">
+            <img src="assets/calendar-icon-by-prosymbols-premium.png"
               alt="calendar icon">
-              4/10/2025 </span>
-            <span class="detail">
-              <img src="assets/clock-icon-by-creativecons.png"
+            <p>4/10/2025</p>
+          </span>
+          <span class="detail">
+            <img src="assets/clock-icon-by-creativecons.png"
               alt="clock icon">
-              8:00 AM </span>
-            </p></div>
+            <p><time>8:00 AM</time></p>
+          </span>
       </section>
       
       <hr>
 
       <section id="attendance">
         <div class="box head">
-          <h3>
-            <img src="assets/people-icon-by-freepik.png"
+          <img src="assets/people-icon-by-freepik.png"
             alt="people icon">
-            Attendance</h3>
+          <h3>Attendance</h3>
         </div>
         
         <div class="box body">
@@ -73,10 +66,9 @@
 
       <section id="agenda">
         <div class="box head">
-          <h3>
-            <img src="assets/checkbox-icon-by-inkubators.png"
+          <img src="assets/checkbox-icon-by-inkubators.png"
             alt="checkbox icon">
-            Agenda</h3>
+          <h3>Agenda</h3>
         </div>
         
         <div class="box body">
@@ -91,10 +83,9 @@
       
       <section id="old-business">
         <div class="box head">
-          <h3>
-            <img src="assets/checkbox-icon-by-inkubators.png"
+          <img src="assets/checkbox-icon-by-inkubators.png"
             alt="checkbox icon">
-            Old Business</h3>
+          <h3>Old Business</h3>
         </div>
       
         <div class="box body">
@@ -108,10 +99,9 @@
 
       <section id="new-business">
         <div class="box head">
-          <h3>
           <img src="assets/checkbox-icon-by-inkubators.png"
             alt="checkbox icon">
-            New Business</h3>
+          <h3>New Business</h3>
         </div>
         
         <div class="box body">
@@ -125,10 +115,9 @@
 
       <section id="notes">
         <div class="box head">
-          <h3>
           <img src="assets/paper-icon-by-graphics-plazza.png"
             alt="paper icon">
-            Notes</h3>
+          <h3>Notes</h3>
         </div>
 
         <div class="box body">
@@ -155,7 +144,7 @@
           <p><b>Email:</b></p>
           <input type="text" name="email" id="email">
 
-          <p><b>How often would you like to receive emails?</b></p>
+          <h3>How often would you like to receive emails?</h3>
           <input type="radio" name="frequency" id="daily" value="daily">
           <label for="daily">Daily</label>
           <br>
@@ -165,7 +154,7 @@
           <input type="radio" name="frequency" id="monthly" value="monthly">
           <label for="monthly">Monthly</label>
 
-          <p><b>Starting from:</b></p>
+          <h3>Starting from:</h3>
           <input type="date" name="start-date" id="start-date">
 
           <select name="time" id="time">
