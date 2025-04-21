@@ -4,24 +4,12 @@ h1, h3 {
     font-family: "Arvo";
 }
 
-h1, h2 {
-    text-align: center;
-}
-
-h1 {
-    text-decoration: dotted;
-}
-
 h2, p, li {
     font-family: "Roboto";
 }
 
 * {
     color: color(srgb 1 1 1);
-}
-
-.detail {
-    color: rgb(245, 138, 7);
 }
 
 /* IMAGE STYLES */
@@ -36,15 +24,20 @@ img {
 
 /* HEADER STYLE */
 
-.logo {
+#logo {
     grid-area: logo;
 }
 
-.title {
+h1 {
+    font-weight: lighter;
+    font-size: 300%;
+    text-decoration: dotted;
     grid-area: title;
 }
 
-.subtitle {
+h2 {
+    font-weight: lighter;
+    font-size: 150%;
     grid-area: subtitle;
 }
 
@@ -64,20 +57,31 @@ header {
 /* DETAILS STYLE */
 
 .detail {
-    display: inline-block;
-
     margin: auto;
     padding: 10px;
+
+    > p, time {
+        display: inline-block;
+        color: rgb(245, 138, 7);
+    }
 }
 
-.details {
+#details {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-content: center;
 }
 
-/* BODY STYLE */
+/* MAIN STYLE */
+
+h3 {
+    display: inline-block;
+}
+
+hr {
+    visibility: hidden;
+}
 
 .box {
     display: block;
