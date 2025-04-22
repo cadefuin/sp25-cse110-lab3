@@ -160,3 +160,9 @@ div.body {
     background-color: color-mix(in hsl, darkblue 25%, white 75%);
     border-color: color-mix(in hsl, darkblue 25%, white 75%);
 }
+
+/* FILES STYLE */
+
+summary ~ * {
+    margin: 1em;
+}
