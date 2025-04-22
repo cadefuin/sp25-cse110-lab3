@@ -12,6 +12,10 @@ h2, p, li {
     color: color(srgb 1 1 1);
 }
 
+[alt] {
+    color: rgb(245, 138, 7);
+}
+
 /* IMAGE STYLES */
 
 img:has(+ :is(p, h3)) {
