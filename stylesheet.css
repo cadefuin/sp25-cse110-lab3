@@ -16,6 +16,8 @@ h2, p, li {
 
 img {
     display: inline-block;
+    position: relative;
+    top: 0.5em;
     height: 30px;
     width: 30px;
     margin-left: 10px;
@@ -23,10 +25,6 @@ img {
 }
 
 /* NAV STYLE */
-
-#logo {
-    float: left;
-}
 
 nav {
     background-color: hsl(210, 89%, 28%);
@@ -59,6 +57,10 @@ nav {
 }
 
 /* HEADER STYLE */
+
+#logo {
+    grid-area: logo;
+}
 
 h1 {
     font-weight: lighter;
