@@ -9,7 +9,7 @@ h2, p, li {
 }
 
 * {
-    color: color(lch 1 1 1);
+    color: color(srgb 1 1 1);
 }
 
 [alt] {
