@@ -9,7 +9,7 @@ h2, p, li {
 }
 
 * {
-    color: color(lch 1 1 1);
+    color: color(srgb 1 1 1);
 }
 
 [alt] {
@@ -38,7 +38,7 @@ nav {
     left: 0;
     width: 100%;
 
-    & > ul {
+    > ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -125,7 +125,7 @@ header {
 .detail {
     margin: auto;
 
-    & > p, time {
+    > p, time {
         display: inline-block;
         color: rgb(245, 138, 7);
     }
